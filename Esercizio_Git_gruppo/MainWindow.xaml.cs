@@ -23,12 +23,17 @@ namespace Esercizio_Git_gruppo
         public MainWindow()
         {
             InitializeComponent();
-            Brano brano = new Brano{a, b, 10};
 
         }
 
         private void Aggiungi_Brano_Click(object sender, RoutedEventArgs e)
         {
+            string Titolo = Agg_Titolo.Text;
+            string Autore = Agg_Autore.Text;
+            double Durata = (Agg_Durata.Text);
+            CD cd = new CD {Titolo,Autore,Durata };
+            cd.setAutore();
+            cd.setTitolo();
 
         }
     }
