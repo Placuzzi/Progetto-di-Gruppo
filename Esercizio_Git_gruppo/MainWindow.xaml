@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button x:Name="Aggiungi_Brano" Content="Button" HorizontalAlignment="Left" Margin="36,28,0,0" VerticalAlignment="Top" Height="50" Width="143" Click="Aggiungi_Brano_Click"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="278,79,49,42"/>
+        <TextBox x:Name="Agg_Titolo" HorizontalAlignment="Left" Margin="36,136,0,0" TextWrapping="Wrap" Text="Aggiungi titolo" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="Agg_Autore" HorizontalAlignment="Left" Margin="36,199,0,0" TextWrapping="Wrap" Text="Aggiungi Autore" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="Agg_Durata" HorizontalAlignment="Left" Margin="36,260,0,0" TextWrapping="Wrap" Text="Aggiungi Durata " VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="Nome_Cd" HorizontalAlignment="Left" Margin="452,40,0,0" TextWrapping="Wrap" Text="Nome CD" VerticalAlignment="Top" Width="161"/>
     </Grid>
 </Window>

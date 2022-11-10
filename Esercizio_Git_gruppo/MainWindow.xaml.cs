@@ -23,6 +23,13 @@ namespace Esercizio_Git_gruppo
         public MainWindow()
         {
             InitializeComponent();
+            Brano brano = new Brano{a, b, 10};
+
+        }
+
+        private void Aggiungi_Brano_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
